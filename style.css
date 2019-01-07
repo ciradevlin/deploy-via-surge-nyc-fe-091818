@@ -1,3 +1,142 @@
 body {
-	background: purple;
+    background-image: linear-gradient(to right, #4682B4 , #B0DFE5);
+
 }
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Mali', cursive;
+
+
+}
+
+
+.container { 
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+}
+
+#weather{
+  background-color: #d1dbe5; 
+}
+
+#tbd{
+  background-color: #d1dbe5; 
+  text-align: center;
+  color: white;
+  font-family: 'Mali', cursive;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+#dice{
+  background-color: #d1dbe5; 
+  align-items: center;
+  font-family: 'Mali', cursive;
+
+}
+
+#button{ 
+  display: block;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 15px;
+  font-size: 100%;
+  width: 40%;
+  
+}
+
+#clock{
+  background-color: #d1dbe5;
+
+  
+}
+
+#timezones {
+  display: flex;
+  justify-content: space-around;
+}
+
+#die 
+
+{
+width: 32px;
+background: #688ab0;
+border: black 1px solid;
+font-size: 50px;
+text-align: center; 
+margin: auto;
+padding: 75px;
+}
+
+
+
+
+
+
+form {
+  margin: 10px;
+
+}
+form * {
+  color:#0c0c00;
+  margin-left: 30%;
+  font-size: 150%;
+  display: block;
+  width: 40%;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  font-weight: lighter;
+
+}
+
+section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border: 1px solid black;
+  background: #c6d5f3;
+  padding: 35px;
+
+}
+
+
+
+
+th {
+  border-collapse: collapse;
+  width: 20%;
+}
+
+td {
+  text-align: center;
+  font-size: 175%;
+
+}
+  
+#day { 
+  text-align: center;
+  font-family: 'Monoton', cursive;
+
+
+}
+
+
+@media all and (max-width:500px) {
+  #icon  {
+    display: flex;
+  }
+}
+  
